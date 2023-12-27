@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Jest with Typescript boilerplate using Reqres.in",
   "scripts": {
-    "test": "jest ./tests/reqres.spec.js"
+    "test": "jest ./tests/reqres.spec.js",
+    "e2e": "jest ./tests/e2e/reqres.spec.js"
   },
   "keywords": [],
   "author": "hll",
